@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="iic_slave_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="iic_master_sim_pkg" />
+            <top_module name="iic_slave_mm_8x8_pkg" />
+            <top_module name="iic_slave_phy_pkg" />
+            <top_module name="iic_slave_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="356.411192 us"></ZoomStartTime>
+      <ZoomEndTime time="483.411193 us"></ZoomEndTime>
+      <Cursor1Time time="2,001.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="198"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wave_markers>
+      <marker time="406848892" label="" />
+   </wave_markers>
+   <wvobject fp_name="/iic_slave_tb/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/wdata_valid" type="logic">
+      <obj_property name="ElementShortName">wdata_valid</obj_property>
+      <obj_property name="ObjectShortName">wdata_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/wdata_ack" type="logic">
+      <obj_property name="ElementShortName">wdata_ack</obj_property>
+      <obj_property name="ObjectShortName">wdata_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/rdata_rd_mode" type="logic">
+      <obj_property name="ElementShortName">rdata_rd_mode</obj_property>
+      <obj_property name="ObjectShortName">rdata_rd_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/rdata_done" type="logic">
+      <obj_property name="ElementShortName">rdata_done</obj_property>
+      <obj_property name="ObjectShortName">rdata_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/rdata_ack" type="logic">
+      <obj_property name="ElementShortName">rdata_ack</obj_property>
+      <obj_property name="ObjectShortName">rdata_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/stretch_clk" type="logic">
+      <obj_property name="ElementShortName">stretch_clk</obj_property>
+      <obj_property name="ObjectShortName">stretch_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/protocol_fsm" type="other">
+      <obj_property name="ElementShortName">protocol_fsm</obj_property>
+      <obj_property name="ObjectShortName">protocol_fsm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/stop_flag" type="logic">
+      <obj_property name="ElementShortName">stop_flag</obj_property>
+      <obj_property name="ObjectShortName">stop_flag</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider362">
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_addr" type="array">
+      <obj_property name="ElementShortName">bus_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bus_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_write" type="logic">
+      <obj_property name="ElementShortName">bus_write</obj_property>
+      <obj_property name="ObjectShortName">bus_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_read" type="logic">
+      <obj_property name="ElementShortName">bus_read</obj_property>
+      <obj_property name="ObjectShortName">bus_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_waitreq" type="logic">
+      <obj_property name="ElementShortName">bus_waitreq</obj_property>
+      <obj_property name="ObjectShortName">bus_waitreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_wdata" type="array">
+      <obj_property name="ElementShortName">bus_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bus_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_rdata" type="array">
+      <obj_property name="ElementShortName">bus_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bus_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/bus_rvalid" type="logic">
+      <obj_property name="ElementShortName">bus_rvalid</obj_property>
+      <obj_property name="ObjectShortName">bus_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider362">
+      <obj_property name="label">PHY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/wdata_valid" type="logic">
+      <obj_property name="ElementShortName">wdata_valid</obj_property>
+      <obj_property name="ObjectShortName">wdata_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/wdata_ack" type="logic">
+      <obj_property name="ElementShortName">wdata_ack</obj_property>
+      <obj_property name="ObjectShortName">wdata_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/phy_fsm" type="other">
+      <obj_property name="ElementShortName">phy_fsm</obj_property>
+      <obj_property name="ObjectShortName">phy_fsm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/rdata_rd_mode" type="logic">
+      <obj_property name="ElementShortName">rdata_rd_mode</obj_property>
+      <obj_property name="ObjectShortName">rdata_rd_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/rdata_done" type="logic">
+      <obj_property name="ElementShortName">rdata_done</obj_property>
+      <obj_property name="ObjectShortName">rdata_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/rdata_ack" type="logic">
+      <obj_property name="ElementShortName">rdata_ack</obj_property>
+      <obj_property name="ObjectShortName">rdata_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/stretch_clk" type="logic">
+      <obj_property name="ElementShortName">stretch_clk</obj_property>
+      <obj_property name="ObjectShortName">stretch_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/scl_rr" type="logic">
+      <obj_property name="ElementShortName">scl_rr</obj_property>
+      <obj_property name="ObjectShortName">scl_rr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/sda_rr" type="logic">
+      <obj_property name="ElementShortName">sda_rr</obj_property>
+      <obj_property name="ObjectShortName">sda_rr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/scl_r" type="logic">
+      <obj_property name="ElementShortName">scl_r</obj_property>
+      <obj_property name="ObjectShortName">scl_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/sda_r" type="logic">
+      <obj_property name="ElementShortName">sda_r</obj_property>
+      <obj_property name="ObjectShortName">sda_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/scl_r_prev" type="logic">
+      <obj_property name="ElementShortName">scl_r_prev</obj_property>
+      <obj_property name="ObjectShortName">scl_r_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/sda_r_prev" type="logic">
+      <obj_property name="ElementShortName">sda_r_prev</obj_property>
+      <obj_property name="ObjectShortName">sda_r_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/scl_r_prev2" type="logic">
+      <obj_property name="ElementShortName">scl_r_prev2</obj_property>
+      <obj_property name="ObjectShortName">scl_r_prev2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/sda_r_prev2" type="logic">
+      <obj_property name="ElementShortName">sda_r_prev2</obj_property>
+      <obj_property name="ObjectShortName">sda_r_prev2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/start_i" type="logic">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/stop_i" type="logic">
+      <obj_property name="ElementShortName">stop_i</obj_property>
+      <obj_property name="ObjectShortName">stop_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/ack_i" type="logic">
+      <obj_property name="ElementShortName">ack_i</obj_property>
+      <obj_property name="ObjectShortName">ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/iic_slave_tb/dut/reg/phy/bitc" type="other">
+      <obj_property name="ElementShortName">bitc</obj_property>
+      <obj_property name="ObjectShortName">bitc</obj_property>
+   </wvobject>
+</wave_config>
